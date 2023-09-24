@@ -11,7 +11,7 @@
 - React
 - API TMDB (<https://www.themoviedb.org/?language=pt-BR>)
 
-## 🆙	 É mostrado os filmes que estão em alta no momento, a sinopse e data de lançamento.
+## 🆙	 É mostrado os filmes que estão em alta no momento, sinopse e data de lançamento.
 
 
 ![popular movies2](https://github.com/rubsribeiro/APImovies/assets/110606629/3cffde3f-4b36-495e-b7db-e90169882ded)
