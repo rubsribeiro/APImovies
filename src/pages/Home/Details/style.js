@@ -15,10 +15,11 @@ export const Container = styled.div `
         justify-content: center;
     }
 
+
     img {
         width: 300px;
         border-radius: 1rem;
-        
+        border: 1px solid #FFF;
     }
 
     .details {
@@ -57,5 +58,28 @@ export const Container = styled.div `
     .release-date {
         opacity: 0.5;
     }
+
+    @media (max-width: 550px) {
+        .movie {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+        }
+
+        span {
+            margin-left: -3rem;
+            text-align: justify;
+    
+        }
+
+        h1 {
+            margin-left:  -3rem;
+            text-align: center;
+        }
+
+    }
+
 
 `

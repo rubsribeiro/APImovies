@@ -40,7 +40,6 @@ function Details() {
                     <span>Sinopse: {movie.sinopse}</span>
                     <span className="release-date">Release date: {movie.releaseDate}</span>
                     <Link to="/"><button>Go Back</button></Link>
-                    
                 </div>
             </div>
         </Container>
