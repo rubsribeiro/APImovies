@@ -1,4 +1,4 @@
-# Popular Movies - TMDB 📣🎬🎥🎞
+# Popular Movies - TMDB 📣 🎬 🎥 🎞
 <br>
 
 ![popular movies](https://github.com/rubsribeiro/APImovies/assets/110606629/2d8d03b3-8de2-4525-bb64-a1641ecb18e0)
