@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { Container, MovieList, Movie } from "./style";
+import { API_KEY } from "../../config/key";
 import { useState, useEffect } from "react";
+
+
 
 
 function Home() {
@@ -10,7 +13,7 @@ function Home() {
 
     useEffect(() => {
 
-        fetch(`https://api.themoviedb.org/3/movie/popular?api_key=6fbc07760a3d3f9d3a49b81884939815&language=en-US&page=1`)
+        fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`)
         
         .then(response => response.json())
         .then(data => setMovies(data.results))
