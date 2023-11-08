@@ -4,6 +4,7 @@
 /.pnp
 .pnp.js
 key.js
+.gitignore
 
 # testing
 /coverage
